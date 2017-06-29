@@ -4,7 +4,7 @@
 var mongoose = require('mongoose');
 var gracefulShutdown;
 //var dbURI =  'mongodb://localhost/btc';
-var dbURI ='mongodb://ds143362.mlab.com:43362/btc';
+var dbURI ='mongodb://goutham:goutham17@ds143362.mlab.com:43362/btc';
 mongoose.connect(dbURI);
 
 mongoose.connection.on('connected',function () {
