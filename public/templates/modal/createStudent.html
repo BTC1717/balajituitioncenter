@@ -1,0 +1,113 @@
+<div class="row">
+  <img src="https://www.iconexperience.com/_img/v_collection_png/512x512/shadow/user_add.png" class="img-responsive col-md-4" height="50px;"/>
+ <br><br> <h2 class="col-md-8"> REGISTER STUDENT</h2>
+</div>
+<br><br>
+<form  method="post" action="#" ng-controller="adminController as adminctrl">
+
+  <div class="form-group">
+  <label for="firstname" class="cols-sm-2 control-label">First Name</label>
+  <div class="cols-sm-10">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user-circle-o"></i> </span>
+      <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.firstname"/>
+    </div>
+  </div>
+</div>
+  <div class="form-group">
+    <label for="lastname" class="cols-sm-2 control-label">Last Name</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="name" id="name"  placeholder="Enter Last Name" ng-model="adminctrl.student.lastname"/>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="confirm" class="cols-sm-2 control-label">Standard</label>
+    <div class="cols-sm-10">
+      <div class=" input-group">
+        <span class="input-group-addon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+
+        <select class="form-control" id="inlineFormCustomSelect" ng-model="adminctrl.student.standard">
+          <option selected value="" disabled>Select Standard...</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="cols-sm-2 control-label">Your Email</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="email" id="email"  placeholder="Enter  Email" ng-model="adminctrl.student.email" ng-click="adminctrl.selectrollno(adminctrl.student.standard)"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="rollno" class="cols-sm-2 control-label">Roll Number</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="rollno" id="rollno"  placeholder="Your Roll Number" ng-model="adminctrl.student.rollno"  disabled/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="parent" class="cols-sm-2 control-label">Parent Name</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-id-card" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="parentname" id="parent"  placeholder="Enter your Parent Name" ng-model="adminctrl.student.parentname"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="confirm" class="cols-sm-2 control-label">Phone Number</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="phonenumber" id="confirm"  placeholder="Enter Your Phone Number" ng-model="adminctrl.student.phonenumber"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="confirm" class="cols-sm-2 control-label">Last Fees Paid</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="lastfeespaid"   placeholder="Enter Fees Date" ng-model="adminctrl.student.lastfeespaid"/>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="confirm" class="cols-sm-2 control-label">Fees</label>
+    <div class="cols-sm-10">
+      <div class=" input-group">
+        <span class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></span>
+
+        <select class="form-control" id="inlineFormCustomSelect" ng-model="adminctrl.student.fees">
+          <option selected value=""disabled>Select Options</option>
+          <option value="Paid">Paid</option>
+          <option value="Not Paid">Not Paid</option>
+
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group ">
+    <a  type="button" id="button" class="btn btn-primary btn-lg btn-block" ng-click="adminctrl.save(adminctrl.student)">Save</a>
+  </div>
+
+</form>

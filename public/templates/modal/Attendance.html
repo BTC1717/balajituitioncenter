@@ -1,0 +1,102 @@
+<div ng-controller="adminController as adminctrl">
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="name" id="name"  placeholder="Enter Roll No" ng-model="adminctrl.rollno"/>
+    </div>
+
+    <div class="col-md-6">
+      <button class="btn btn-success" href ng-click="adminctrl.searchStudent(adminctrl.rollno)">SEARCH STUDENT</button>
+    </div>
+  </div>
+
+  <div ng-if="adminctrl.searchsuccess">
+    <form  method="post" action="#">
+
+      <div class="form-group">
+        <label for="firstname" class="cols-sm-2 control-label">First Name</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.firstname"/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="lastname" class="cols-sm-2 control-label">Last Name</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.lastname"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="checkin" class="cols-sm-2 control-label">Check In</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter In Time" ng-model="adminctrl.student.checkin|date:'medium'"/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="checkout" class="cols-sm-2 control-label">Check Out</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter Out Time" ng-model="adminctrl.student.checkout|date:'medium'" ng-click="adminctrl.checkouttime()"/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+      <label for="firstname" class="cols-sm-2 control-label">Standard</label>
+      <div class="cols-sm-10">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+          <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.standard"/>
+        </div>
+      </div>
+    </div>
+      <div class="form-group">
+        <label for="firstname" class="cols-sm-2 control-label">Record Of Work</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.recordofwork"/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="firstname" class="cols-sm-2 control-label">Attendance</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <!--<input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.attendance"/>-->
+            <select class="form-control" id="inlineFormCustomSelect" ng-model="adminctrl.student.attendance">
+              <option selected value=""disabled>Select Options</option>
+              <option value="PRESENT">PRESENT</option>
+              <option value="ABSENT">ABSENT</option>
+
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="firstname" class="cols-sm-2 control-label">Remarks</label>
+        <div class="cols-sm-10">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-camera-retro"></i> </span>
+            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter First Name" ng-model="adminctrl.student.remarks"/>
+          </div>
+        </div>
+      </div>
+      <div class="form-group ">
+        <a  type="button" id="button" class="btn btn-primary btn-lg btn-block" ng-click="adminctrl.saveAttendance(adminctrl.student)">Save</a>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+
