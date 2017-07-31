@@ -6,6 +6,7 @@ student.controller('studentController',['studentservice','$stateParams',function
       var student = this;
 
       student.currentstudent = studentservice.get({ rollno: $stateParams.rollno });
+      console.log("STUDENT DATA",student.currentstudent);
 
 }]);
 

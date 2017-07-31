@@ -36,6 +36,7 @@ module.exports.getStudent =function (req,res) {
       res.send(err)
     }
     if (student) {
+      console.log(student);
       res.send(student)
     } else {
       res.send("No Student found with that ID")
@@ -66,6 +67,7 @@ module.exports.updateStudent = function(req,res){
         if(err){
           console.log("SORRY CANNOT UPDATE STUDENT");
         }else{
+          console.log(student);
           res.send(student);
         }
       });
