@@ -6,14 +6,37 @@ student.controller('studentController',['studentservice','$stateParams',function
       var student = this;
 
       student.currentstudent = studentservice.get({ rollno: $stateParams.rollno });
-      console.log("STUDENT DATA",student.currentstudent);
+  student.currentstudent.$promise.then(function (result) {
+    student.currentstudent.fees = formatDate(result.lastfeespaid);
+
+  });
+  function formatDate(feesdate) {
+    var d = new Date(),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+      var feesStatus='und';
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+    var currentDate = [year, month, day].join('-');
+    var demo = feesdate.split('-');
+    if(parseInt(month) > parseInt(demo[1])){
+        if((parseInt(day)-parseInt(demo[2]))>1){
+          feesStatus = "Not Paid";
+       }
+    }
+    else if(parseInt(month) == parseInt(demo[1])){
+      feesStatus = "Paid";
+    }
+    return feesStatus;
+  }
 
 }]);
 
 student.controller('attendanceController',['attendanceService','$stateParams',function (attendanceService,$stateParams) {
   var attendance = this;
+  attendance.state={};
   attendance.attendance = attendanceService.query({ rollno: $stateParams.rollno });
-  console.log("FETCHED DATA", attendance.attendance);
   attendance.studentAttendance='STUDENT ATTENDANCE';
   attendance.searchText= '';
   attendance.state = {

@@ -14,6 +14,7 @@ module.exports.findAvailableRollno =function(req,res){
       res.send(err)
     }
     if (student) {
+      console.log(student)
       res.send(student)
     } else {
       res.send("No Student found with that ID")

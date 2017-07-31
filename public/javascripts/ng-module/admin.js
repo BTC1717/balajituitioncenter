@@ -30,9 +30,30 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
           admin.searchsuccess= true;
           admin.student = result;
           admin.student.checkin = new Date();
+          admin.student.fees = formatDate(result.lastfeespaid);
         }
       });
+    };
+  function formatDate(feesdate) {
+    var d = new Date(),
+      month = '' + (d.getMonth() + 1),
+      day = '' + d.getDate(),
+      year = d.getFullYear();
+    var feesStatus='und';
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+    var currentDate = [year, month, day].join('-');
+    var demo = feesdate.split('-');
+    if(parseInt(month) > parseInt(demo[1])){
+      if((parseInt(day)-parseInt(demo[2]))>1){
+        feesStatus = "Not Paid";
+      }
     }
+    else if(parseInt(month) == parseInt(demo[1])){
+      feesStatus = "Paid";
+    }
+    return feesStatus;
+  }
   admin.save = function(student){
     console.log("CLIENT",student);
     adminservicefactory.save(student);
@@ -53,7 +74,7 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
     admin.studentTemp = standardfactory.query({ standard: standard });
     admin.studentTemp.$promise.then(function (result) {
       if(result.rollno===undefined){
-        admin.latestrollno = 2017+admin.student.standard+0;
+        admin.latestrollno = 2017+admin.student.standard+'0';
       }
       else{
         admin.latestrollno = result.rollno;
