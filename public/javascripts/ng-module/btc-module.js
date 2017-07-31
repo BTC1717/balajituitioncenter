@@ -3,7 +3,7 @@
  */
 
 
-var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap']);
+var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap','authenticationModule']);
 
 btcmodule.config(function ($stateProvider,$urlRouterProvider) {
   var home ={
@@ -36,9 +36,20 @@ btcmodule.config(function ($stateProvider,$urlRouterProvider) {
     controllerAs:'adminctrl',
     title:'Balaji Tuition Center'
   };
+  var login ={
+    name:'login',
+    url:'/login',
+    templateUrl:'../../templates/login.html',
+    controller:'loginController',
+    controllerAs:'loginctrl',
+    title:'Balaji Tuition Center'
+  };
+
+
   $stateProvider.state(home);
   $stateProvider.state(students);
   $stateProvider.state(admin);
   $stateProvider.state(student);
+  $stateProvider.state(login);
   $urlRouterProvider.otherwise('/');
 });

@@ -3,7 +3,7 @@
  */
 
 
-var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService']);
+var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService','authenticationModule']);
 
 admin.controller('adminController',['$scope','$rootScope','$http','ModalService','$fancyModal','adminservicefactory','standardfactory','studentservice','attendanceService','attendanceCheckOutService',function($scope,$rootScope,$http,ModalService, $fancyModal,adminservicefactory,standardfactory,studentservice,attendanceService,attendanceCheckOutService){
   var admin = this;

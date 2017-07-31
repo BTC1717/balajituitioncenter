@@ -48,3 +48,4 @@ process.once('SIGTERM',function () {
 require('./student');
 require('./attendance');
 require('./test');
+require('./user');

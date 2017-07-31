@@ -1,0 +1,20 @@
+<div class="container" ng-controller="loginController as loginctrl">
+  <div class="card card-container">
+    <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+    <p id="profile-name" class="profile-name-card"></p>
+    <form class="form-signin">
+      <span id="reauth-email" class="reauth-email"></span>
+      <input type="text" id="inputRollno" class="form-control" placeholder="Enter Rollno" required autofocus ng-model="loginctrl.user.rollno">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required ng-model="loginctrl.user.password">
+      <div id="remember" class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block btn-signin"  ng-click="loginctrl.login(loginctrl.user)">Sign in</button>
+    </form><!-- /form -->
+    <a href="#" class="forgot-password" ng-if="loginerror">
+      {{errorMessage}}
+    </a>
+  </div><!-- /card-container -->
+</div>

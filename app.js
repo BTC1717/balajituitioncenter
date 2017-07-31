@@ -4,15 +4,18 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var passport = require('passport');
 var sassMiddleware = require('node-sass-middleware');
 require('./app_server/models/db');
+require('./app_server/config/passport')
 var index = require('./app_server/routes/index');
 var users = require('./app_server/routes/users');
 var studentsapi = require('./app_server/routes/studentsapi')
 var admin = require('./app_server/routes/admin');
 var standard = require('./app_server/routes/standardapi');
 var attendance = require('./app_server/routes/attendance');
-var test = require('./app_server/routes/testroutes')
+var test = require('./app_server/routes/testroutes');
+var authenticateRouter = require('./app_server/routes/authenticationroutes');
 var app = express();
 
 // view engine setup
@@ -33,14 +36,22 @@ app.use(sassMiddleware({
   sourceMap: true
 }));
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(passport.initialize());
+var jwt = require('express-jwt');
+var auth = jwt({
+  secret: 'MY_SECRET',
+  userProperty: 'payload'
+});
 app.use('/', index);
 app.use('/users', users);
-app.use('/api/students',studentsapi);
+app.use('/api/authenticate',authenticateRouter);
+app.use('/api/students',auth,studentsapi);
 app.use('/api/admin',admin);
 app.use('/api/standard',standard);
 app.use('/api/attendance',attendance);
 app.use('/api/test',test);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

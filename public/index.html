@@ -24,6 +24,7 @@
   <script src="javascripts/ng-module/btc-module.js"></script>
   <script src="javascripts/ng-module/admin.js"></script>
   <script src="javascripts/ng-module/adminService.js"></script>
+  <script src="javascripts/ng-module/authentication.js"></script>
 
   <script src="javascripts/ng-module/student.js"></script>
   <script src="javascripts/ng-module/studentservice.js"></script>
@@ -32,6 +33,8 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
   <link href="/stylesheets/style.css" rel="stylesheet">
+  <link href="/stylesheets/parallaxstyles.css" rel="stylesheet">
+  <link href="/stylesheets/login.css" rel="stylesheet">
 
   <link href="stylesheets/angular-modal.css" rel="stylesheet">
   <link href="stylesheets/ad-strap-styles.css" rel="stylesheet">
@@ -77,18 +80,19 @@
       <ul class="nav navbar-nav">
         <li class=""><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a ui-sref="login">Login</a></li>
+        <li><a ui-sref="admin">Admin</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
 <br><br><br>
-<div class="container">
+<div>
 
 
-  <a ui-sref="home">Hello</a>
+  <!--<a ui-sref="home">Hello</a>
   <a ui-sref="students">About</a>
-  <a ui-sref="admin">Admin</a>
+  <a ui-sref="admin">Admin</a>-->
   <ui-view></ui-view>
 </div><!-- /.container -->
 

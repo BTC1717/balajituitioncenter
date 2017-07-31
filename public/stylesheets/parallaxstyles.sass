@@ -1,0 +1,49 @@
+.parent
+  background-attachment: fixed
+  position: relative
+  overflow: hidden
+  height: 750px
+
+.wallpaper
+  background: url(../images/Background.jpg) no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  height: 740px
+  position: relative
+
+.wallpaper-adjacent
+  background: url(../images/demopic.png)
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  height: 700px
+  position: relative
+  top: -700px
+  width: 45%
+  right: -50%
+  transition: all 2s
+  -webkit-transition: all 2s
+  &:hover
+    -webkit-animation: bounce infinite 5s
+    animation: bounce infinite 5s
+
+
+@keyframes bounce
+  25%
+    -webkit-transform: translateY(45px)
+    transform: translateY(45px)
+  50%
+    -webkit-transform: translateY(-45px)
+    transform: translateY(-45px)
+  75%
+    -webkit-transform: translateY(45px)
+    transform: translateY(45px)
+  100%
+    -webkit-transform: translateY(-45px)
+    transform: translateY(-45px)
+
+
+
