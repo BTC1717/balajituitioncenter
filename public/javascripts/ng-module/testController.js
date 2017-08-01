@@ -23,7 +23,7 @@ testController.controller('testController',['testService','$stateParams','$rootS
     displayProperty: 'date',
     sortKey: 'date',
     columnSearchProperty: 'date',
-    template:"<span>{{item.date|date:'MMM dd yyyy'}}</span>",
+    template:"<h4>{{item.date|date:'MMM dd yyyy'}}</h4>",
     visible: true
   },{
     columnHeaderDisplayName: 'Subjects',
@@ -36,6 +36,7 @@ testController.controller('testController',['testService','$stateParams','$rootS
     columnHeaderDisplayName: 'Marks',
     displayProperty: 'marks',
     sortKey: 'marks',
+      template:"<h4>{{item.marks}}</h4>",
     columnSearchProperty: 'marks',
     visible: true
   },
@@ -44,6 +45,7 @@ testController.controller('testController',['testService','$stateParams','$rootS
       displayProperty: 'fullmarks',
       sortKey: 'fullmarks',
       columnSearchProperty: 'fullmarks',
+      template:"<h4>{{item.fullmarks}}</h4>",
       visible: true
     },
     {

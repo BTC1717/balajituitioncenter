@@ -3,9 +3,9 @@
  */
 
 
-var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService','authenticationModule','testService']);
+var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService','authenticationModule','testService','ui.router']);
 
-admin.controller('adminController',['$scope','$rootScope','$http','ModalService','$fancyModal','adminservicefactory','standardfactory','studentservice','attendanceService','attendanceCheckOutService','testService',function($scope,$rootScope,$http,ModalService, $fancyModal,adminservicefactory,standardfactory,studentservice,attendanceService,attendanceCheckOutService,testService){
+admin.controller('adminController',['$scope','$rootScope','$http','ModalService','$fancyModal','adminservicefactory','standardfactory','studentservice','attendanceService','attendanceCheckOutService','testService','$state',function($scope,$rootScope,$http,ModalService, $fancyModal,adminservicefactory,standardfactory,studentservice,attendanceService,attendanceCheckOutService,testService,$state){
   var admin = this;
   admin.student ={};
   var modal;
@@ -110,6 +110,17 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
       {themeClass: 'fancymodal-theme-classic'}
 
     );
+  }
+
+  admin.viewStudent = function () {
+    modal = $fancyModal.open(  { templateUrl: '../../templates/modal/viewstudent.html' },
+      {themeClass: 'fancymodal-theme-classic'}
+
+    );
+  }
+  admin.viewStudentDetails = function (rollno) {
+    $fancyModal.close();
+    $state.go('student',{'rollno':rollno});
   }
 
 

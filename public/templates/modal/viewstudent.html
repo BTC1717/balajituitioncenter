@@ -1,0 +1,16 @@
+<div ng-controller="adminController as adminctrl">
+
+<div class="row" >
+  <img src="https://www.iconexperience.com/_img/v_collection_png/512x512/shadow/user_edit.png" class="img-responsive col-md-4" height="50px;"/>
+  <br><br> <h2 class="col-md-8"> VIEW STUDENT</h2>
+</div>
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="name" id="name"  placeholder="Enter Roll No" ng-model="adminctrl.rollno"/>
+    </div>
+
+    <div class="col-md-6">
+      <button class="btn btn-success" href ng-click="adminctrl.viewStudentDetails(adminctrl.rollno)">SEARCH STUDENT</button>
+    </div>
+  </div>
+</div>

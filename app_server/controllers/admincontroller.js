@@ -51,9 +51,7 @@ module.exports.updateStudent = function(req,res){
       console.log("CANNOT FIND A STUDENT TO UPDATE");
     }
     else {
-      console.log("UPDATING CURRENT ",student);
-      console.log("UPDATING CURRENT ",student);
-      console.log("GOT ",req.body);
+
       student.firstname  =req.body.firstname;
       student.lastname  =req.body.lastname;
       student.rollno =req.body.rollno;
@@ -63,6 +61,7 @@ module.exports.updateStudent = function(req,res){
       student.email =req.body.email;
       student.phonenumber =req.body.phonenumber;
       student.lastfeespaid =req.body.lastfeespaid;
+      student.imageurl= req.body.imageurl;
       student.save(function (err,student) {
         if(err){
           console.log("SORRY CANNOT UPDATE STUDENT");

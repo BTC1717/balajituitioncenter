@@ -16,7 +16,8 @@ var StudentSchema = new mongoose.Schema({
   parentname:String,
   email:String,
   phonenumber:String,
-  lastfeespaid:String
+  lastfeespaid:String,
+  imageurl:String
 });
 mongoose.model('student',StudentSchema);
 

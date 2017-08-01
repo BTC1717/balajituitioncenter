@@ -54,6 +54,7 @@ student.controller('attendanceController',['attendanceService','$stateParams',fu
     displayProperty: 'attendance',
     sortKey: 'attendance',
     columnSearchProperty: 'attendance',
+    template:'<h4>{{item.attendance}}</h4>',
     visible: true
   },
     {
@@ -61,7 +62,7 @@ student.controller('attendanceController',['attendanceService','$stateParams',fu
       displayProperty: 'checkin',
       size:'4em',
       sortKey: 'checkin',
-      template:"<span>{{item.checkin|date:'MMM dd yyyy'}}</span>",
+      template:"<h4>{{item.checkin|date:'MMM dd yyyy'}}</h4>",
       columnSearchProperty: 'checkin',
       visible: true
     },
@@ -87,6 +88,7 @@ student.controller('attendanceController',['attendanceService','$stateParams',fu
       displayProperty: 'recordofwork',
       sortKey: 'recordofwork',
       columnSearchProperty: 'recordofwork',
+      template:"<h4>{{item.recordofwork}}</h4>",
 
       visible: true
     }, {
@@ -94,6 +96,7 @@ student.controller('attendanceController',['attendanceService','$stateParams',fu
       displayProperty: 'remarks',
       sortKey: 'remarks',
      columnSearchProperty: 'remarks',
+      template:"<h4>{{item.remarks}}</h4>",
       visible: true
     }];
 
