@@ -15,15 +15,21 @@ student.controller('studentController',['studentservice','$stateParams',function
       month = '' + (d.getMonth() + 1),
       day = '' + d.getDate(),
       year = d.getFullYear();
-      var feesStatus='und';
+    var feesStatus='und';
     if (month.length < 2) month = '0' + month;
     if (day.length < 2) day = '0' + day;
     var currentDate = [year, month, day].join('-');
     var demo = feesdate.split('-');
-    if(parseInt(month) > parseInt(demo[1])){
-        if((parseInt(day)-parseInt(demo[2]))>1){
-          feesStatus = "Not Paid";
-       }
+    if((parseInt(month) - parseInt(demo[1]))===1){
+      if((parseInt(day)-parseInt(demo[2]))>1){
+        feesStatus = "Not Paid";
+      }
+      else{
+        feesStatus = "Paid";
+      }
+    }
+    else if((parseInt(month) - parseInt(demo[1]))>1){
+      feesStatus = "Not Paid";
     }
     else if(parseInt(month) == parseInt(demo[1])){
       feesStatus = "Paid";

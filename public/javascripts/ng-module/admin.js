@@ -44,10 +44,16 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
     if (day.length < 2) day = '0' + day;
     var currentDate = [year, month, day].join('-');
     var demo = feesdate.split('-');
-    if(parseInt(month) > parseInt(demo[1])){
+    if((parseInt(month) - parseInt(demo[1]))===1){
       if((parseInt(day)-parseInt(demo[2]))>1){
         feesStatus = "Not Paid";
       }
+      else{
+        feesStatus = "Paid";
+      }
+    }
+    else if((parseInt(month) - parseInt(demo[1]))>1){
+      feesStatus = "Not Paid";
     }
     else if(parseInt(month) == parseInt(demo[1])){
       feesStatus = "Paid";
