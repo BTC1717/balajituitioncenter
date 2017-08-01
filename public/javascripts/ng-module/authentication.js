@@ -14,7 +14,7 @@ authenticationModule.controller('loginController',['$scope','$http','$state',fun
 
   this.loginSuccess = function (response) {
 
-    $state.go('student',{'rollno':response.data.rollno});
+    $state.go('student.attendance',{'rollno':response.data.rollno});
   }
   this.loginError = function(error){
     $scope.loginerror=true;

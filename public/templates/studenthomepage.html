@@ -1,3 +1,4 @@
+<br><br>
 <div class="well" >
   <div class="row">
   <div class="col-lg-5 col-lg-offset-1">
@@ -17,23 +18,21 @@
     </div>
   </div>
 </div>
-
-
-<!--NAV PILLS -->
-
+<br><br>
 <ul class="nav nav-tabs">
-  <li class="active">
-    <a  ui-sref="#attendance" data-toggle="tab">Attendance</a>
-  </li>
-  <li><a ui-sref="#testscore" data-toggle="tab">Test Scores</a>
-
-
+  <li ui-sref-active="active" class="active">
+    <a ui-sref="student.attendance">Attendance</a>
+  <li>
+  <li ui-sref-active="active" class="active">
+    <a ui-sref="student.test">TEST</a>
+  <li>
 </ul>
+<div ui-view></div>
 
-<div ng-controller="attendanceController as attendance" id="attendance">
+<!--<div ng-controller="attendanceController as attendance" id="attendance">
 
-  <!-- ========== Usage ========== -->
-  <ad-table-lite table-name="attendance.studentAttendance"
+  &lt;!&ndash; ========== Usage ========== &ndash;&gt;
+&lt;!&ndash;  <ad-table-lite table-name="attendance.studentAttendance"
                  enable-column-search="true"
                  column-definition="attendance.studentAttendanceColumnDefinition"
                  local-data-source="attendance.attendance"
@@ -45,8 +44,5 @@
                  search-text="attendance.searchText"
                  state="attendance.state"
                  ></ad-table-lite>
-</div>
-
-<div id="testscore">
-
-</div>
+</div>&ndash;&gt;
+  -->

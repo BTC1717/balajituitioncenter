@@ -6,5 +6,5 @@ var router = express.Router();
 var testController = require('../controllers/testController')
 
 router.post('/',testController.saveScore);
-router.get('/',testController.getScore);
+router.get('/:rollno',testController.getScore);
 module.exports = router;

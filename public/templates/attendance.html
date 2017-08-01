@@ -1,0 +1,18 @@
+<!--<div ng-controller="attendanceController as attendance" id="attendance">-->
+
+<div ng-controller="attendanceController as attendance" id="attendance">
+
+  <!-- ========== Usage ========== -->
+  <ad-table-lite table-name="attendance.studentAttendance"
+                 enable-column-search="true"
+                 column-definition="attendance.studentAttendanceColumnDefinition"
+                 local-data-source="attendance.attendance"
+                 page-sizes="[10,20,50]"
+                 pagination-btn-group-classes="pagination pagination-sm"
+                 table-classes="table table-bordered"
+                 items-not-found-message="Attendance Not Found"
+                 snug-sort-icons="true"
+                 search-text="attendance.searchText"
+                 state="attendance.state"
+  ></ad-table-lite>
+</div>

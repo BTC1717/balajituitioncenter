@@ -1,0 +1,70 @@
+<div class="row">
+  <img src="https://www.iconexperience.com/_img/v_collection_png/512x512/shadow/user_add.png" class="img-responsive col-md-4" height="50px;"/>
+  <br><br> <h2 class="col-md-8"> ENTER TEST SCORE</h2>
+</div>
+<br><br>
+<form  method="post" action="#" ng-controller="testController as test">
+
+  <div class="form-group">
+    <label for="rollno" class="cols-sm-2 control-label">Roll Number</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-user-circle-o"></i> </span>
+        <input type="text" class="form-control" name="rollno" id="name"  placeholder="Enter Roll Number" ng-model="test.student.rollno" ng-click="test.getDate()"/>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="lastname" class="cols-sm-2 control-label">Date</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="date" id="name"  placeholder="Enter Date" ng-model="test.student.date|date:'medium'"/>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="confirm" class="cols-sm-2 control-label">Subjects</label>
+    <span ng-repeat="sub in subjectsWritten">
+      <a class="fa fa-times" aria-hidden="true" ng-click="removeWrittenSubject(sub)">{{sub}}</a>
+    </span>
+    <div class="cols-sm-10">
+      <div class=" input-group">
+        <span class="input-group-addon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+        <select ng-model="test.testsubjects"
+                ng-options="option for option in test.subjects"
+                class="form-control paddRL8 selectDropDown robotoRegular inputHeight"
+                title="Select">
+          <option value="">Select...</option>
+        </select>
+        <span><a class="btn btn-default" ng-click="addSubjects(test.testsubjects)">ADD</a></span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="cols-sm-2 control-label">Score</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="email" id="email"  placeholder="Enter Marks Scored" ng-model="test.student.marks"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="rollno" class="cols-sm-2 control-label">Full Marks</label>
+    <div class="cols-sm-10">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="rollno" id="rollno"  placeholder="Enter Total Marks" ng-model="test.student.fullmarks"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group ">
+    <a  type="button" id="button" class="btn btn-primary btn-lg btn-block" ng-click="test.saveTest(test.student)">Save</a>
+  </div>
+
+</form>

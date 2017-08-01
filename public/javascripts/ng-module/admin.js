@@ -3,9 +3,9 @@
  */
 
 
-var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService','authenticationModule']);
+var admin = angular.module('admin',['angularModalService','vesparny.fancyModal','ngResource','adminservice','studentservice','attendanceService','authenticationModule','testService']);
 
-admin.controller('adminController',['$scope','$rootScope','$http','ModalService','$fancyModal','adminservicefactory','standardfactory','studentservice','attendanceService','attendanceCheckOutService',function($scope,$rootScope,$http,ModalService, $fancyModal,adminservicefactory,standardfactory,studentservice,attendanceService,attendanceCheckOutService){
+admin.controller('adminController',['$scope','$rootScope','$http','ModalService','$fancyModal','adminservicefactory','standardfactory','studentservice','attendanceService','attendanceCheckOutService','testService',function($scope,$rootScope,$http,ModalService, $fancyModal,adminservicefactory,standardfactory,studentservice,attendanceService,attendanceCheckOutService,testService){
   var admin = this;
   admin.student ={};
   var modal;
@@ -69,7 +69,11 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
       attendanceService.save(attendance);
       $fancyModal.close();
     }
-
+    admin.saveTest = function (student) {
+      student.subject= $rootScope.subjectsWritten;
+      testService.save(student);
+      $fancyModal.close();
+    }
     admin.checkouttime = function(){
       admin.student.checkout = new Date();
       admin.attendance.checkout = new Date();
@@ -100,6 +104,14 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
       {themeClass: 'fancymodal-theme-classic'}
     );
   }
+
+  admin.test = function () {
+    modal = $fancyModal.open(  { templateUrl: '../../templates/modal/test.html' },
+      {themeClass: 'fancymodal-theme-classic'}
+
+    );
+  }
+
 
   admin.searchCheckout = function(rollno){
     admin.student =  studentservice.get({ rollno: rollno});

@@ -23,7 +23,7 @@ module.exports.saveScore = function (req,res) {
 };
 
 module.exports.getScore = function (req,res) {
-  Test.find({},function(err,score){
+  Test.find({rollno:req.params.rollno},function(err,score){
     if(err){
       console.log("ERROR FETCHING SCORE");
       res.send(err);
