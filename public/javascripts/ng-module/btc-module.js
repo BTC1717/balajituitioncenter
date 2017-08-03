@@ -104,9 +104,44 @@ btcmodule.run(['$rootScope',
           event.preventDefault();
         }
         else{
-          //event.preventDefault();
-          $state.go('student.attendance',{'rollno':toParams.rollno});
-          //event.preventDefault();
+          if($rootScope.rollno!=toParams.rollno){
+            if($rootScope.role!='admin'){
+              $state.go('student.attendance',{'rollno':$rootScope.rollno});
+            }
+            else{
+              $state.go('student.attendance',{'rollno':toParams.rollno});
+            }
+          }
+          else{
+            $state.go('student.attendance',{'rollno':toParams.rollno});
+          }
+
+
+        }
+
+      }
+      if(toState.name==='student.test'){
+        if(!authentication.isLoggedIn()){
+
+          $state.go('login');
+          event.preventDefault();
+        }
+        else{
+
+            if($rootScope.rollno!=toParams.rollno){
+              if($rootScope.role!='admin'){
+                $state.go('student.test',{'rollno':$rootScope.rollno});
+              }
+              else{
+                $state.go('student.test',{'rollno':toParams.rollno});
+              }
+            }
+            else{
+              $state.go('student.test',{'rollno':toParams.rollno});
+            }
+
+
+
         }
 
       }

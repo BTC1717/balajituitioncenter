@@ -41,6 +41,14 @@ testController.controller('testController',['testService','$stateParams','$rootS
     visible: true
   },
     {
+      columnHeaderDisplayName: 'Percentage',
+      displayProperty: 'percentage',
+      sortKey: 'percentage',
+      template:"<h4>{{(item.marks)/(item.fullmarks)*100}} &#37;</h4>",
+      columnSearchProperty: 'marks',
+      visible: true
+    },
+    {
       columnHeaderDisplayName: 'Full Marks',
       displayProperty: 'fullmarks',
       sortKey: 'fullmarks',

@@ -1,7 +1,7 @@
-<div ng-if="item.marks>= 40">
+<div ng-if="((item.marks)/(item.fullmarks))*100>= 40">
   <h3 style="color:green;">PASS</h3>
 </div>
-<div ng-if="item.marks< 40" >
+<div ng-if="((item.marks)/(item.fullmarks))*100< 40" >
   <h3 style="color:red;">FAIL</h3>
 </div>
 
