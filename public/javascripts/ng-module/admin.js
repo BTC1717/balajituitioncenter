@@ -10,7 +10,6 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
   admin.student ={};
   var modal;
   admin.CreateShow = function() {
-
     modal = $fancyModal.open(
       { templateUrl: '../../templates/modal/createStudent.html' },
       {themeClass: 'fancymodal-theme-classic'}

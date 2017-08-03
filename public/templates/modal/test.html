@@ -1,5 +1,5 @@
 <div class="row">
-  <img src="https://www.iconexperience.com/_img/v_collection_png/512x512/shadow/user_add.png" class="img-responsive col-md-4" height="50px;"/>
+  <img src="http://integra.tarnow.net.pl/uploads/item/ORGINAL/7d93a55b112762a5fb672d00bbc67384checklist4.png" class="img-responsive col-md-4" height="50px;"/>
   <br><br> <h2 class="col-md-8"> ENTER TEST SCORE</h2>
 </div>
 <br><br>
@@ -28,6 +28,7 @@
     <span ng-repeat="sub in subjectsWritten">
       <a class="fa fa-times" aria-hidden="true" ng-click="removeWrittenSubject(sub)">{{sub}}</a>
     </span>
+
     <div class="cols-sm-10">
       <div class=" input-group">
         <span class="input-group-addon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
@@ -37,10 +38,11 @@
                 title="Select">
           <option value="">Select...</option>
         </select>
-        <span><a class="btn btn-default" ng-click="addSubjects(test.testsubjects)">ADD</a></span>
+
       </div>
 
     </div>
+    <span class="cols-sm-2 pull-right"><a class="btn btn-success" ng-click="addSubjects(test.testsubjects)">ADD</a></span>
   </div>
 
   <div class="form-group">

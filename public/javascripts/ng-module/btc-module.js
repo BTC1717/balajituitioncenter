@@ -3,7 +3,7 @@
  */
 
 
-var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap','authenticationModule','testModule']);
+var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap','authenticationModule','testModule','btcAuthentication','ngStorage']);
 
 btcmodule.config(function ($stateProvider,$urlRouterProvider) {
   var home ={
@@ -77,3 +77,39 @@ btcmodule.config(function ($stateProvider,$urlRouterProvider) {
   $stateProvider.state(test);
   $urlRouterProvider.otherwise('/');
 });
+
+btcmodule.run(['$rootScope',
+  '$state',
+  '$location',
+  '$stateParams','authentication','$localStorage',function ($rootScope,$state, $location, $stateParams,authentication,$localStorage) {
+    $rootScope.role = $localStorage.role;
+    $rootScope.rollno =$localStorage.rollno;
+    $rootScope.login =$localStorage.login;
+    $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){
+     if(toState.name==='admin'){
+       if(!authentication.isLoggedIn()){
+         $state.go('login');
+         event.preventDefault();
+       }
+       else{
+        // event.preventDefault();
+         $state.go('admin');
+       }
+
+     }
+      if(toState.name==='student.attendance'){
+        if(!authentication.isLoggedIn()){
+
+          $state.go('login');
+          event.preventDefault();
+        }
+        else{
+          //event.preventDefault();
+          $state.go('student.attendance',{'rollno':toParams.rollno});
+          //event.preventDefault();
+        }
+
+      }
+    });
+  }]);
+

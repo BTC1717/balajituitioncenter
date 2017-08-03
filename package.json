@@ -8,7 +8,7 @@
   "dependencies": {
     "angular": "^1.6",
     "angular-resource": "^1.6.4",
-    "angular-ui-router": "",
+    "angular-ui-router": "0.4.2",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
