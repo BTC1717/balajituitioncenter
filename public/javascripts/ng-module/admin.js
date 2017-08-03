@@ -23,7 +23,7 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
     }
 
     admin.searchStudent = function (Rollno) {
-      admin.student =  studentservice.get({ rollno: Rollno});
+      admin.student =  studentservice.query({ rollno: Rollno});
       admin.student.$promise.then(function(result){
         if(result.rollno===Rollno){
           admin.searchsuccess= true;
@@ -124,7 +124,7 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
 
 
   admin.searchCheckout = function(rollno){
-    admin.student =  studentservice.get({ rollno: rollno});
+    admin.student =  studentservice.query({ rollno: rollno});
     admin.student.$promise.then(function(result){
       //if(result.rollno===Rollno){
         admin.searchsuccess= true;

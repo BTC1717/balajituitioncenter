@@ -2,652 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216773f9-d6db-4602-b385-811b3dd00b64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/_bundles/ui-router-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/_bundles/ui-router-core.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/_bundles/ui-router-core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/_bundles/ui-router-core.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/common.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/common.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/coreservices.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/coreservices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/coreservices.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/glob.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/glob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/glob.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/hof.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/hof.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/hof.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/predicates.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/predicates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/predicates.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/queue.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/queue.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/strings.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/strings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/strings.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/trace.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/trace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/common/trace.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/globals.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/globals.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/coreResolvables.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/coreResolvables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/coreResolvables.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/ignoredTransition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/ignoredTransition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/ignoredTransition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/invalidTransition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/invalidTransition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/invalidTransition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/lazyLoad.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/lazyLoad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/lazyLoad.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/onEnterExitRetain.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/onEnterExitRetain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/onEnterExitRetain.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/redirectTo.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/redirectTo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/redirectTo.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/resolve.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/resolve.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/updateGlobals.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/updateGlobals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/updateGlobals.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/url.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/url.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/views.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/hooks/views.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/param.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/param.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/param.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramType.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramType.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramTypes.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/paramTypes.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/stateParams.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/stateParams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/params/stateParams.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathNode.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/path/pathNode.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolvable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolvable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolvable.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolveContext.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolveContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/resolve/resolveContext.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/router.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/router.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateBuilder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateBuilder.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateMatcher.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateMatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateMatcher.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateObject.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateObject.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateQueueManager.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateQueueManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateQueueManager.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateRegistry.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateRegistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateRegistry.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/stateService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/targetState.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/targetState.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/state/targetState.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookBuilder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookBuilder.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookRegistry.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookRegistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/hookRegistry.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/rejectFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/rejectFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/rejectFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionEventType.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionEventType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionEventType.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionHook.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionHook.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/transition/transitionService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcher.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcher.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcherFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlMatcherFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRouter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRouter.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRule.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlRule.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/url/urlService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/baseLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/baseLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/baseLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/browserLocationConfig.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/browserLocationConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/browserLocationConfig.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/hashLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/hashLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/hashLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/injector.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/injector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/injector.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationConfig.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationConfig.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/memoryLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/plugins.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/plugins.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/pushStateLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/pushStateLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/pushStateLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/q.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/q.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/q.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/utils.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/vanilla/utils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib-esm/view/view.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/common.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/common.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/coreservices.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/coreservices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/coreservices.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/glob.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/glob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/glob.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/hof.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/hof.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/hof.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/predicates.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/predicates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/predicates.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/queue.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/queue.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/strings.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/strings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/strings.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/trace.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/trace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/common/trace.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/globals.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/globals.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/coreResolvables.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/coreResolvables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/coreResolvables.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/ignoredTransition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/ignoredTransition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/ignoredTransition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/invalidTransition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/invalidTransition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/invalidTransition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/lazyLoad.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/lazyLoad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/lazyLoad.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/onEnterExitRetain.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/onEnterExitRetain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/onEnterExitRetain.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/redirectTo.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/redirectTo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/redirectTo.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/resolve.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/resolve.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/updateGlobals.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/updateGlobals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/updateGlobals.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/url.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/url.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/url.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/views.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/hooks/views.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/param.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/param.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/param.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramType.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramType.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramTypes.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/paramTypes.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/stateParams.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/stateParams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/params/stateParams.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathNode.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/path/pathNode.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolvable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolvable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolvable.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolveContext.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolveContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/resolve/resolveContext.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/router.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/router.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateBuilder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateBuilder.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateMatcher.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateMatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateMatcher.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateObject.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateObject.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateQueueManager.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateQueueManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateQueueManager.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateRegistry.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateRegistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateRegistry.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/stateService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/targetState.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/targetState.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/state/targetState.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookBuilder.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookBuilder.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookRegistry.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookRegistry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/hookRegistry.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/rejectFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/rejectFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/rejectFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transition.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transition.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionEventType.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionEventType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionEventType.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionHook.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionHook.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/transition/transitionService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcher.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcher.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcherFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlMatcherFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRouter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRouter.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRule.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlRule.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/url/urlService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/baseLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/baseLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/baseLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/browserLocationConfig.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/browserLocationConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/browserLocationConfig.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/hashLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/hashLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/hashLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/injector.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/injector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/injector.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationConfig.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationConfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationConfig.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/memoryLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/plugins.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/plugins.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/pushStateLocationService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/pushStateLocationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/pushStateLocationService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/q.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/q.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/q.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/utils.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/vanilla/utils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/view.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/lib/view/view.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/migrate/migrate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/migrate/migratewarn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@uirouter/core/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/DOCS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/angular.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/stateDirectives.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/directives/viewDirective.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/injectables.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/resolveService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/legacy/stateEvents.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/locationServices.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/services.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateFilters.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/stateProvider.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/onEnterExitRetain.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/statebuilders/views.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/templateFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/urlRouterProvider.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib-esm/viewScroll.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/angular.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/stateDirectives.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/directives/viewDirective.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/injectables.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/interface.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/resolveService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/legacy/stateEvents.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/locationServices.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/services.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateFilters.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/stateProvider.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/onEnterExitRetain.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/statebuilders/views.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/templateFactory.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/urlRouterProvider.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/lib/viewScroll.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/migrate/migrate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/migrate/migratewarn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/resolveService.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/stateEvents.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/ui-router-angularjs.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/rollup.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/stats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/package.json" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/kareem/index.js" afterPath="$PROJECT_DIR$/node_modules/kareem/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/kareem/package.json" afterPath="$PROJECT_DIR$/node_modules/kareem/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/common.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/cursor/eachAsync.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/cursor/eachAsync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyHooks.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/model/applyHooks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/model/discriminator.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/model/discriminator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/query/castUpdate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/query/castUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/muri/README.md" afterPath="$PROJECT_DIR$/node_modules/muri/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/muri/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/muri/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/muri/package.json" afterPath="$PROJECT_DIR$/node_modules/muri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/log/monitor.log" afterPath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/log/monitor.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/admin.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/authentication.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/authentication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/vendor/angular-ui-router.js" afterPath="$PROJECT_DIR$/public/javascripts/vendor/angular-ui-router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/test.html" afterPath="$PROJECT_DIR$/public/templates/modal/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/viewstudent.html" afterPath="$PROJECT_DIR$/public/templates/modal/viewstudent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/studenthomepage.html" afterPath="$PROJECT_DIR$/public/templates/studenthomepage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/adminService.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/adminService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/student.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/student.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/ng-module/testService.js" afterPath="$PROJECT_DIR$/public/javascripts/ng-module/testService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -668,8 +32,8 @@
       <file leaf-file-name="authenticationService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="21">
+              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -677,31 +41,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="testService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/testService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btc-module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/adminService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="227" lean-forward="false" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="227" />
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authentication.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authentication.js">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="e#4822#4909#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/student.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendanceService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentservice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editStudent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/modal/editStudent.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <caret line="8" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteStudent.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/templates/modal/deleteStudent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -722,10 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar-padding</find>
-      <find>rollno</find>
-      <find>attendanceSerivce</find>
-      <find>attendanceService</find>
       <find>checkouttime</find>
       <find>updateAttendance</find>
       <find>:string,</find>
@@ -737,7 +159,6 @@
       <find>&lt;li&gt;&lt;a ui-sref=&quot;admin&quot;&gt;Admin&lt;/a&gt;&lt;/li&gt;</find>
       <find>onStateChange</find>
       <find>searchText</find>
-      <find>searchStudent</find>
       <find>selectrollno</find>
       <find>nav</find>
       <find>navbar</find>
@@ -752,6 +173,11 @@
       <find>$state</find>
       <find>$roo</find>
       <find>saveToken</find>
+      <find>getToken</find>
+      <find>searchStudent</find>
+      <find>adminservicefactory</find>
+      <find>searchsuccess</find>
+      <find>studentservice</find>
     </findStrings>
     <replaceStrings>
       <replace>attendanceService</replace>
@@ -764,10 +190,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js" />
-        <option value="$PROJECT_DIR$/public/templates/modal/checkout.html" />
         <option value="$PROJECT_DIR$/app_server/routes/admin.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/adminService.js" />
         <option value="$PROJECT_DIR$/public/templates/modal/deleteStudent.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/cardstyles.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
@@ -776,7 +199,6 @@
         <option value="$PROJECT_DIR$/app_server/config/passport.js" />
         <option value="$PROJECT_DIR$/app_server/models/users.js" />
         <option value="$PROJECT_DIR$/app_server/routes/authenticationroutes.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_server/views/login.html" />
         <option value="$PROJECT_DIR$/app_server/controllers/authentication.js" />
         <option value="$PROJECT_DIR$/public/templates/login.html" />
@@ -788,7 +210,6 @@
         <option value="$PROJECT_DIR$/public/stylesheets/parallaxstyles.sass" />
         <option value="$PROJECT_DIR$/app_server/controllers/testController.js" />
         <option value="$PROJECT_DIR$/app_server/routes/testroutes.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/testService.js" />
         <option value="$PROJECT_DIR$/public/templates/attendance.html" />
         <option value="$PROJECT_DIR$/app_server/models/db.js" />
         <option value="$PROJECT_DIR$/public/templates/test.html" />
@@ -799,7 +220,6 @@
         <option value="$PROJECT_DIR$/public/javascripts/ng-module/testController.js" />
         <option value="$PROJECT_DIR$/public/templates/tabledata/checkin.html" />
         <option value="$PROJECT_DIR$/public/templates/tabledata/checkout.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/student.js" />
         <option value="$PROJECT_DIR$/public/templates/admin.html" />
         <option value="$PROJECT_DIR$/app_server/models/student.js" />
         <option value="$PROJECT_DIR$/public/templates/modal/editStudent.html" />
@@ -810,11 +230,17 @@
         <option value="$PROJECT_DIR$/public/templates/modal/test.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/javascripts/vendor/angular-ui-router.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/admin.js" />
         <option value="$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js" />
         <option value="$PROJECT_DIR$/public/javascripts/ng-module/authentication.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/testService.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/adminService.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/student.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ng-module/admin.js" />
       </list>
     </option>
   </component>
@@ -850,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -890,11 +317,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -912,17 +335,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ng-module" />
+              <option name="myItemId" value="modal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1138,12 +574,13 @@
       <workItem from="1501594047699" duration="6770000" />
       <workItem from="1501646843008" duration="6769000" />
       <workItem from="1501681596296" duration="11195000" />
-      <workItem from="1501719965489" duration="4783000" />
+      <workItem from="1501719965489" duration="8014000" />
+      <workItem from="1501733376533" duration="2500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261454000" />
+    <option name="totallyTimeSpent" value="267185000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1156,14 +593,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1915" height="1030" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.7929883" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.7829716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.20701168" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.21702838" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32621464" sideWeight="0.19724771" order="2" side_tool="true" content_ui="tabs" />
@@ -1391,13 +827,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app_server/routes/authenticationroutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/authentication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1461,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/testController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1486,13 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1528,13 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/testService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1591,17 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,25 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/student.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/modal/createStudent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="97" column="136" lean-forward="false" selection-start-line="97" selection-start-column="128" selection-end-line="97" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/modal/editStudent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="104" column="2" lean-forward="true" selection-start-line="104" selection-start-column="2" selection-end-line="112" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1702,7 +1084,7 @@
         <state relative-caret-position="623">
           <caret line="4683" column="27" lean-forward="false" selection-start-line="4683" selection-start-column="27" selection-end-line="4683" selection-end-column="27" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1715,54 +1097,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="71" column="27" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="e#1515#2237#0" expanded="false" />
-            <element signature="e#2425#2501#0" expanded="false" />
-            <element signature="e#2696#2792#0" expanded="false" />
-            <element signature="e#2836#3288#0" expanded="false" />
-            <element signature="e#4613#4768#0" expanded="false" />
-            <element signature="e#4818#4905#0" expanded="false" />
-            <element signature="e#4947#5103#0" expanded="false" />
-            <element signature="e#5144#5267#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/adminService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="227" lean-forward="false" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="227" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1770,6 +1108,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/testService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/authenticationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/adminService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#4822#4909#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/studentservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/modal/editStudent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/modal/deleteStudent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="65" />
           <folding />
         </state>
       </provider>

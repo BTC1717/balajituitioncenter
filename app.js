@@ -46,10 +46,10 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/api/authenticate',authenticateRouter);
 app.use('/api/students',auth,studentsapi);
-app.use('/api/admin',admin);
-app.use('/api/standard',standard);
-app.use('/api/attendance',attendance);
-app.use('/api/test',test);
+app.use('/api/admin',auth,admin);
+app.use('/api/standard',auth,standard);
+app.use('/api/attendance',auth,attendance);
+app.use('/api/test',auth,test);
 
 
 

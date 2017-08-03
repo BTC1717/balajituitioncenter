@@ -5,7 +5,7 @@ var student = angular.module('student',['ngResource','studentservice','attendanc
 student.controller('studentController',['studentservice','$stateParams',function (studentservice,$stateParams) {
       var student = this;
 
-      student.currentstudent = studentservice.get({ rollno: $stateParams.rollno });
+      student.currentstudent = studentservice.query({ rollno: $stateParams.rollno });
   student.currentstudent.$promise.then(function (result) {
     student.currentstudent.fees = formatDate(result.lastfeespaid);
 
