@@ -132,7 +132,7 @@ admin.controller('adminController',['$scope','$rootScope','$http','ModalService'
 
      // }
     });
-    admin.attendance = attendanceCheckOutService.get({rollno: rollno});
+    admin.attendance = attendanceCheckOutService.query({rollno: rollno});
     admin.attendance.$promise.then(function(result){
       admin.attendance=result;
     });

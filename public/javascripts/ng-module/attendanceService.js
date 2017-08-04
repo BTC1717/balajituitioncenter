@@ -28,7 +28,7 @@ attendanceService.factory('attendanceCheckOutService',function($resource,authent
         'Authorization': 'Bearer ' + authentication.getToken()
       }
     },
-    'query': { method: 'GET',isArray:true,
+    'query': { method: 'GET',isArray:false,
       headers: {
         'Authorization': 'Bearer ' + authentication.getToken()
       }},
