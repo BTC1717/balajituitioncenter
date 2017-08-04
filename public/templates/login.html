@@ -1,5 +1,5 @@
 <div class="container" ng-controller="loginController as loginctrl">
-  <div class="card card-container">
+ <!-- <div class="card card-container">
     <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
     <p id="profile-name" class="profile-name-card"></p>
     <form class="form-signin">
@@ -12,9 +12,21 @@
         </label>
       </div>
       <button class="btn btn-lg btn-primary btn-block btn-signin"  ng-click="loginctrl.login(loginctrl.user)">Sign in</button>
-    </form><!-- /form -->
+    </form>&lt;!&ndash; /form &ndash;&gt;
     <a href="#" class="forgot-password" ng-if="loginerror">
       {{errorMessage}}
     </a>
-  </div><!-- /card-container -->
+  </div>--><!-- /card-container -->
+
+  <div id="login">
+    <form name='form-login'>
+      <span class="fontawesome-user"></span>
+      <input type="text" id="user" ng-model="loginctrl.user.rollno" placeholder="Roll Number">
+
+      <span class="fontawesome-lock"></span>
+      <input type="password" id=pass" ng-model="loginctrl.user.password" placeholder="Password">
+
+      <input type="submit" ng-click="loginctrl.login(loginctrl.user)" value="Login">
+    </form>
+  </div>
 </div>
