@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216773f9-d6db-4602-b385-811b3dd00b64" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/log/monitor.log" afterPath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/log/monitor.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/properties/log4js.json.new" afterPath="$PROJECT_DIR$/node_modules/node-monitor/node_monitor_plugin/properties/log4js.json.new" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/parallaxstyles.css" afterPath="$PROJECT_DIR$/public/stylesheets/parallaxstyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/parallaxstyles.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/parallaxstyles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,6 +20,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BTC" />
@@ -24,18 +32,18 @@
       <file leaf-file-name="parallaxstyles.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/parallaxstyles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
+            <state relative-caret-position="451">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customloginbtc.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/customloginbtc.sass">
+      <file leaf-file-name="login_Custom.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/login_Custom.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="616">
+              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -44,18 +52,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btc-module.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="btc-module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/ng-module/btc-module.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="135" column="39" lean-forward="false" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -118,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/stylesheets/cardstyles.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/templates/modal/tabledata/checkin.html" />
         <option value="$PROJECT_DIR$/app_server/controllers/attendancecontroller.js" />
@@ -127,7 +144,6 @@
         <option value="$PROJECT_DIR$/app_server/routes/authenticationroutes.js" />
         <option value="$PROJECT_DIR$/app_server/views/login.html" />
         <option value="$PROJECT_DIR$/app_server/controllers/authentication.js" />
-        <option value="$PROJECT_DIR$/public/templates/login.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/login.css" />
         <option value="$PROJECT_DIR$/app_server/controllers/standardcontroller.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.sass" />
@@ -168,7 +184,9 @@
         <option value="$PROJECT_DIR$/public/javascripts/ng-module/attendanceService.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/login.sass" />
         <option value="$PROJECT_DIR$/public/stylesheets/customloginbtc.sass" />
+        <option value="$PROJECT_DIR$/public/templates/login.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/login_Custom.sass" />
       </list>
     </option>
   </component>
@@ -204,27 +222,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,29 +252,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BTC" />
+              <option name="myItemId" value="balajituitioncenter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -267,9 +267,37 @@
               <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="customloginbtc.sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+              <option name="myItemId" value="balajituitioncenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balajituitioncenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balajituitioncenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balajituitioncenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -284,19 +312,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project-G\Monitis\BTC\public\images" />
-      <recent name="C:\Project-G\Monitis\BTC\public" />
-      <recent name="C:\Project-G\Monitis\BTC\public\stylesheets" />
-      <recent name="C:\Project-G\Monitis\BTC\public\javascripts\vendor" />
-      <recent name="C:\Project-G\Monitis\BTC\public\bower" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project-G\Monitis\BTC\public\templates" />
       <recent name="C:\Project-G\Monitis\BTC\app_server\views" />
       <recent name="C:\Project-G\Monitis\BTC\app_server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Team\balajituitioncenter\public\images" />
+      <recent name="C:\Project-G\Monitis\BTC\public\images" />
+      <recent name="C:\Project-G\Monitis\BTC\public" />
+      <recent name="C:\Project-G\Monitis\BTC\public\stylesheets" />
+      <recent name="C:\Project-G\Monitis\BTC\public\javascripts\vendor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,13 +359,6 @@
       <method />
     </configuration>
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -495,11 +518,12 @@
       <workItem from="1501817294200" duration="670000" />
       <workItem from="1501828404153" duration="887000" />
       <workItem from="1501829641297" duration="1450000" />
+      <workItem from="1501847407605" duration="1624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274263000" />
+    <option name="totallyTimeSpent" value="275887000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -512,25 +536,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1915" height="1030" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.73288816" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258427" sideWeight="0.72315437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32602885" sideWeight="0.26711187" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258427" sideWeight="0.27684563" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28263474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32621464" sideWeight="0.19724771" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -554,188 +578,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/combination-warning-popup/combinationWarningPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/combination-warning-popup/combinationWarningPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/combination-warning-popup/combinationWarningPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/combination-warning-popup/combinationWarningPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupService.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupService.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/duplication-warning-popup/duplicationWarningPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/mspPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/msp/mspPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/maUsersPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/maUsersPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/need-help-popup/needHelpPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/need-help-popup/needHelpPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/need-help-popup/needHelpPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/need-help-popup/needHelpPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupService.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupService.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-user-popup/deleteUserPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/mail-server-popup/mailServerPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/mail-server-popup/mailServerPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/mail-server-popup/mailServerPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/mail-server-popup/mailServerPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/export-users-popup/exportUsersPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/export-users-popup/exportUsersPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/export-users-popup/exportUsersPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/export-users-popup/exportUsersPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-device-popup/deleteDevicePopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-device-popup/deleteDevicePopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-device-popup/deleteDevicePopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/delete-device-popup/deleteDevicePopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/revoke-mobile-id-popup/revokeMobileIdPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/revoke-mobile-id-popup/revokeMobileIdPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/revoke-mobile-id-popup/revokeMobileIdPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/revoke-mobile-id-popup/revokeMobileIdPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/search-mobile-user-popup/searchMobileUserPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/search-mobile-user-popup/searchMobileUserPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/search-mobile-user-popup/searchMobileUserPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/search-mobile-user-popup/searchMobileUserPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/invitation-template-popup/invitationTemplatePopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/invitation-template-popup/invitationTemplatePopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/invitation-template-popup/invitationTemplatePopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/invitation-template-popup/invitationTemplatePopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/issue-only-mobile-id-popup/issueOnlyMobileIdPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/issue-only-mobile-id-popup/issueOnlyMobileIdPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/issue-only-mobile-id-popup/issueOnlyMobileIdPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/issue-only-mobile-id-popup/issueOnlyMobileIdPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-only-invitation-popup/sendOnlyInvitationPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-only-invitation-popup/sendOnlyInvitationPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-only-invitation-popup/sendOnlyInvitationPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-only-invitation-popup/sendOnlyInvitationPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/reset-background-image-popup/resetBackgroundImagePopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/reset-background-image-popup/resetBackgroundImagePopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/reset-background-image-popup/resetBackgroundImagePopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/reset-background-image-popup/resetBackgroundImagePopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/edit-multi-user-details-popup/editMultiUserDetailsPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/edit-multi-user-details-popup/editMultiUserDetailsPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/edit-multi-user-details-popup/editMultiUserDetailsPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/edit-multi-user-details-popup/editMultiUserDetailsPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-invitation-and-mobile-id-popup/sendInvitationAndMobileIdPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-invitation-and-mobile-id-popup/sendInvitationAndMobileIdPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-invitation-and-mobile-id-popup/sendInvitationAndMobileIdPopupDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/ma-users/send-invitation-and-mobile-id-popup/sendInvitationAndMobileIdPopupDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-settings/ma-settings-invitation-email/maSettingsInvitationEmailController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-settings/ma-settings-invitation-email/maSettingsInvitationEmailController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/http-proxy/requestCommonClient.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/http-proxy/requestCommonClient.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-settings/ma-settings-home/maSettingsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-settings/ma-settings-home/maSettingsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/config/environment.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/config/environment.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/euOrgRoutes.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/mspRoutes.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/maRoutes.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/mspRoutes.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/euOrgRoutes.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/shared/routes/maRoutes.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-admin/mobileAdminController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-admin/mobileAdminController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/maPopupModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-popup/maPopupModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/assign-credential/assignCredentialController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/assign-credential/assignCredentialDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/assign-credential/assignCredentialDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/assign-credential/assignCredentialController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/common-directives/commonDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/common-directives/commonDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/common-factory/getCompanyDetailFactory.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-common-widgets/common-factory/getCompanyDetailFactory.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-org/mspManageOrgController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-org/mspManageOrgModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-org/mspManageOrgController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-org/mspManageOrgModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-tenants/mspTenantsModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-tenants/mspTenantsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-tenants/mspTenantsModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-tenants/mspTenantsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-tenant/mspManageTenantController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-tenant/mspManageTenantModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-tenant/mspManageTenantModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-tenant/mspManageTenantController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-home/mspHomeController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-home/mspHomeController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-home/mspHomeModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-home/mspHomeModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-building/mspManageBuildingController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-building/mspManageBuildingModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-building/mspManageBuildingModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-manage-building/mspManageBuildingController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-cropper/cropper.module.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-cropper/cropper.module.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-cropper/cropper.component.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-cropper/cropper.component.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/organizations/mspViewDeletedOrganizationsModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/organizations/mspViewDeletedOrganizationsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/organizations/mspViewDeletedOrganizationsModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/organizations/mspViewDeletedOrganizationsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/buildings/mspViewDeletedBuildingsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/buildings/mspViewDeletedBuildingsModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/buildings/mspViewDeletedBuildingsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/buildings/mspViewDeletedBuildingsModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/tenants/mspViewDeletedTenantsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/tenants/mspViewDeletedTenantsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/tenants/mspViewDeletedTenantsModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/msp/msp-view-deleted/tenants/mspViewDeletedTenantsModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-deleted-user/mobileDeletedUsersController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-deleted-user/mobileDeletedUsersController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-id-summary/mobileIdSummary.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-id-summary/mobileIdSummary.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-details-page/mobileUserDetailsPageController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-details-page/mobileUserDetailsPageController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-multiple-user-status/enrollMultipleUserStatusController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-multiple-user-status/enrollMultipleUserStatusController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-multiple-user-summary/enrollMultipleUserSummaryController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-multiple-user-summary/enrollMultipleUserSummaryController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-home/expandRowController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-home/mobileUserController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-home/mobileUserController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/mobile-user-home/expandRowController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-mobile-user/enrollMobileUserPageDirective.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-mobile-user/enrollMobileUserController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-mobile-user/enrollMobileUserController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/enroll-mobile-user/enrollMobileUserPageDirective.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/edit-mobile-id/editMobileIdController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/edit-mobile-id/editMobileIdController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/issue-mobile-id/issueMobileIdController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/issue-mobile-id/issueMobileIdController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/deleted-mobile-user-details-page/deletedMobileUserDetailsPagecontroller.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/ma-users/deleted-mobile-user-details-page/deletedMobileUserDetailsPagecontroller.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/home/euOrgHomeController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/home/euOrgHomeModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/home/euOrgHomeController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/home/euOrgHomeModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/enroll-users/single-user/euOrgEnrollSingleUserController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/enroll-users/single-user/euOrgEnrollSingleUserController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/user-details/euOrgUserDetailsController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/user-details/euOrgUserDetailsModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/user-details/euOrgUserDetailsModule.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-users/user-details/euOrgUserDetailsController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/vendor.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/main.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/vendor.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/polyfills.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/main.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/polyfills.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-mobile-ids/edit-mobile-id/euOrgEditMobileIdController.js.map" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-mobile-ids/edit-mobile-id/euOrgEditMobileIdController.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-mobile-ids/edit-mobile-id/euOrgEditMobileIdModule.js" />
-        <option value="C:/projects/webstormprojects/SISPortal1.0/src/SISMA/Client/src/app/components/mobile-access-portal/eu-org/manage-mobile-ids/edit-mobile-id/euOrgEditMobileIdModule.js.map" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -747,13 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/assets/stylesheets/bootstrap/_customvariables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="367" column="64" lean-forward="false" selection-start-line="367" selection-start-column="64" selection-end-line="367" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -800,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1018,9 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="46" column="63" lean-forward="false" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
-          <folding>
-            <marker date="1501769824369" expanded="true" signature="1523:1528" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,31 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/parallaxstyles.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/customloginbtc.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,6 +903,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="135" column="39" lean-forward="false" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/customloginbtc.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/parallaxstyles.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/login_Custom.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding />
         </state>
       </provider>
