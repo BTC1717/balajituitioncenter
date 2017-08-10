@@ -2,7 +2,7 @@
  * Created by gpalani on 02-08-2017.
  */
 
-(function () {
+//(function () {
 var btcAuthentication = angular.module('btcAuthentication',['ngStorage']);
 btcAuthentication.service('authentication', authentication);
 authentication.$inject = ['$http', '$window','$rootScope','$localStorage'];
@@ -32,8 +32,8 @@ function authentication ($http, $window,$rootScope,$localStorage) {
       payload = token.split('.')[1];
       payload = $window.atob(payload);
       payload = JSON.parse(payload);
-
-      authneticate = payload.exp > Date.now() / 1000;;
+      console.log(payload.exp);
+      authneticate = payload.exp > Date.now()/1000;
     } else {
       authneticate = false;
     }
@@ -42,6 +42,7 @@ function authentication ($http, $window,$rootScope,$localStorage) {
   };
   var currentUser = function() {
     if(isLoggedIn()){
+      alert("INVOKED");
       var token = getToken();
       var payload = token.split('.')[1];
       payload = $window.atob(payload);
@@ -61,4 +62,4 @@ function authentication ($http, $window,$rootScope,$localStorage) {
   };
 }
 
-})();
+//})();

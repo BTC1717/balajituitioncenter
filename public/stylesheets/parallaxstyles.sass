@@ -1,53 +1,76 @@
-.parent
-  background-attachment: fixed
-  position: relative
-  overflow: hidden
-  height: 750px
-
 .wallpaper
-  background: url(../images/Background.jpg) no-repeat center center fixed
+  background-image: url("../images/background.jpg")
   -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
   background-size: cover
-  height: 740px
-  position: relative
-
-.wallpaper-adjacent
-  background: url(../images/demopic.png)
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-  height: 700px
-  position: relative
-  top: -700px
-  width: 45%
-  right: -50%
-  transition: all 2s
-  -webkit-transition: all 2s
-  &:hover
-    -webkit-animation: bounce infinite 5s
-    animation: bounce infinite 5s
-
-
-@keyframes bounce
-  25%
-    -webkit-transform: translateY(45px)
-    transform: translateY(45px)
-  50%
-    -webkit-transform: translateY(-45px)
-    transform: translateY(-45px)
-  75%
-    -webkit-transform: translateY(45px)
-    transform: translateY(45px)
-  100%
-    -webkit-transform: translateY(-45px)
-    transform: translateY(-45px)
-
-.parent, .wallpaper
-  height: 1080px
+  height: 100vh
   background-attachment: fixed
+  display: table
+  width: 100%
+  opacity: 0.7
 
-.parent > .wallpaper
-  height: 1080px
+.wallpaper2
+  background-image: url("../images/maths.jpg")
+  -webkit-background-size: cover
+  display: table
+  background-size: cover
+  background-attachment: fixed
+  height: 100vh
+  width: 100%
+  opacity: 0.7
+
+
+.wallpaper-inside
+  margin: auto !important
+  padding-top: 14%
+  font-family: "Times New Roman"
+  letter-spacing: 3rem
+  color: bisque
+  text-align: center
+  display: table-cell
+.transparentBG
+  width: 85%
+  margin: auto
+  height: 25%
+  background-color: black
+  opacity: 0.6
+  border: 1px solid black
+  box-sizing: border-box
+h1
+ padding-top: 2.1%
+ font-size: 4rem
+ opacity: 1
+
+@keyframes flip 
+ from 
+  transform: perspective(400px) rotate3d(0, 1, 0, -360deg)
+  animation-timing-function: ease-out
+
+
+ 40% 
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg)
+  animation-timing-function: ease-out
+
+ 50%
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg)
+  animation-timing-function: ease-in
+
+
+ 80%
+  transform: perspective(400px) scale3d(.95, .95, .95)
+  animation-timing-function: ease-in
+
+
+ to
+  transform: perspective(400px)
+  animation-timing-function: ease-in
+
+
+.flip
+  -webkit-backface-visibility: visible
+  backface-visibility: visible
+  -webkit-animation: flip
+  -webkit-animation-delay: 1s
+  -webkit-animation-duration: 2s
+  animation-name: flip
+  animation-delay: 1s
+  animation-duration: 2s

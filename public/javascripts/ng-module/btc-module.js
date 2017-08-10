@@ -3,10 +3,10 @@
  */
 
 
-var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap','authenticationModule','testModule','btcAuthentication','ngStorage']);
+var btcmodule = angular.module('btcmodule',['ui.router','admin','ui.select','angularModalService','student','attendanceService','ngSanitize','adaptv.adaptStrap','authenticationModule','testModule','btcAuthentication','ngStorage','ngResource']);
 
-btcmodule.config(function ($stateProvider,$urlRouterProvider) {
-  var home ={
+btcmodule.config(function ($stateProvider,$urlRouterProvider,$httpProvider) {
+    var home ={
     name:'home',
     url:'/',
     templateUrl:'../../templates/home.html',
@@ -58,6 +58,7 @@ btcmodule.config(function ($stateProvider,$urlRouterProvider) {
     controllerAs:'adminctrl',
     title:'Balaji Tuition Center'
   };
+
   var login ={
     name:'login',
     url:'/login',
@@ -76,6 +77,15 @@ btcmodule.config(function ($stateProvider,$urlRouterProvider) {
   $stateProvider.state(attendance);
   $stateProvider.state(test);
   $urlRouterProvider.otherwise('/');
+  $httpProvider.interceptors.push('myHttpInterceptor');
+
+    var spinnerFunction = function spinnerFunction(data, headersGetter) {
+
+        jQuery("#spinner").show();
+        return data;
+    };
+
+    $httpProvider.defaults.transformRequest.push(spinnerFunction);
 });
 
 btcmodule.run(['$rootScope',
@@ -94,6 +104,7 @@ btcmodule.run(['$rootScope',
        else{
         // event.preventDefault();
          $state.go('admin');
+           event.preventDefault();
        }
 
      }
@@ -147,4 +158,19 @@ btcmodule.run(['$rootScope',
       }
     });
   }]);
+
+
+btcmodule.factory('myHttpInterceptor', function ($q) {
+    return function (promise) {
+        return promise.then(function (response) {
+
+            jQuery("#spinner").hide();
+            return response;
+        }, function (response) {
+
+            jQuery("#spinner").hide();
+            return $q.reject(response);
+        });
+    };
+});
 
