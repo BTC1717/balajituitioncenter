@@ -33,9 +33,12 @@
   <script src="javascripts/ng-module/attendanceService.js"></script>
   <script src="javascripts/ng-module/authenticationService.js"></script>
   <!-- Bootstrap core CSS -->
-
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+ <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
   <link href="/stylesheets/style.css" rel="stylesheet">
   <link href="/stylesheets/parallaxstyles.css" rel="stylesheet">
   <link href="/stylesheets/login.css" rel="stylesheet">
@@ -46,10 +49,6 @@
 
   <link href="stylesheets/angular-modal-theme.css" rel="stylesheet">
   <link href="stylesheets/form-style.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-
-
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -66,6 +65,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
   <![endif]-->
+
 </head>
 
 <body ng-app="btcmodule">
@@ -95,6 +95,7 @@
 </nav>
 <br><br><br>
 <div>
+ <!-- <img id="spinner" ng-src="https://i.stack.imgur.com/naLBK.gif" style="display:none;" id="spinner">-->
   <ui-view></ui-view>
 </div><!-- /.container -->
 
